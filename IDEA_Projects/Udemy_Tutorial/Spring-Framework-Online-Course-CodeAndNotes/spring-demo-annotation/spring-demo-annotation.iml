@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-logging-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-aop-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-aspects-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-beans-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-context-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-context-support-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-core-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-expression-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-instrument-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-instrument-tomcat-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-jdbc-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-jms-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-messaging-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-orm-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-oxm-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-test-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-tx-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-web-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-webmvc-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-webmvc-portlet-4.3.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-websocket-4.3.9.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/commons-logging-1.2-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-aop-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-aspects-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-beans-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-context-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-context-support-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-core-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-expression-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-instrument-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-instrument-tomcat-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-jdbc-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-jms-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-messaging-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-orm-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-oxm-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-test-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-tx-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-web-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-webmvc-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-webmvc-portlet-4.3.9.RELEASE-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-websocket-4.3.9.RELEASE-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/spring-aop-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-aspects-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-beans-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-context-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-context-support-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-core-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-expression-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-instrument-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-instrument-tomcat-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-jdbc-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-jms-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-messaging-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-orm-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-oxm-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-test-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-tx-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-web-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-webmvc-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-webmvc-portlet-4.3.9.RELEASE-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-websocket-4.3.9.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
