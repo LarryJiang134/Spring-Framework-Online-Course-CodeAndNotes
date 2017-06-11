@@ -12,6 +12,7 @@ public class Student {
     private String lastName;
     private String country;
     private LinkedHashMap<String, String> countryOptions;
+    private String favoriteLanguage;
 
     public Student() {
         // populate country options: used ISO country code
@@ -40,6 +41,10 @@ public class Student {
         return countryOptions;
     }
 
+    public String getFavoriteLanguage() {
+        return favoriteLanguage;
+    }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -50,5 +55,9 @@ public class Student {
 
     public void setCountry(String country) {
         this.country = country;
+    }
+
+    public void setFavoriteLanguage(String favoriteLanguage) {
+        this.favoriteLanguage = favoriteLanguage;
     }
 }
