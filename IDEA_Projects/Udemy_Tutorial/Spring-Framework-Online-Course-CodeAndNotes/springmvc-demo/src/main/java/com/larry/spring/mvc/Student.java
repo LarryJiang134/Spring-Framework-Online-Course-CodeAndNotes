@@ -1,5 +1,7 @@
 package com.larry.spring.mvc;
 
+import java.util.LinkedHashMap;
+
 /**
  * Created by hangyanjiang on 2017/6/11.
  */
@@ -9,9 +11,17 @@ public class Student {
     private String firstName;
     private String lastName;
     private String country;
+    private LinkedHashMap<String, String> countryOptions;
 
     public Student() {
+        // populate country options: used ISO country code
+        countryOptions = new LinkedHashMap<String, String>();
 
+        countryOptions.put("CHN", "CHINA");
+        countryOptions.put("USA", "AMERICA");
+        countryOptions.put("RUS", "RUSSIA");
+        countryOptions.put("UK", "BRITAIN");
+        countryOptions.put("FRA", "FRANCE");
     }
 
     public String getFirstName() {
@@ -24,6 +34,10 @@ public class Student {
 
     public String getCountry() {
         return country;
+    }
+
+    public LinkedHashMap<String, String> getCountryOptions() {
+        return countryOptions;
     }
 
     public void setFirstName(String firstName) {
