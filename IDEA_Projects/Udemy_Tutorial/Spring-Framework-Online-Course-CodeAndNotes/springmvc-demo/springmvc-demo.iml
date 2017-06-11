@@ -36,9 +36,9 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.8.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
   </component>

@@ -3,6 +3,7 @@ package com.larry.spring.mvc;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -10,14 +11,16 @@ import javax.servlet.http.HttpServletRequest;
  * Created by hangyanjiang on 2017/6/11.
  */
 
+
 @Controller
+@RequestMapping("/hello")
 public class HelloworldController {
 
     // need a controller method to show the initial HTML form
 
     @RequestMapping("/showForm")
     public String showForm() {
-        return "helloworld-form";
+        return "/helloworld-form";
     }
 
     // need a controller method to process the HTML form
@@ -27,7 +30,8 @@ public class HelloworldController {
         return "helloworld";
     }
 
-    // need a controller method to read from data and add data to the model
+    // new a controller method to read form data and
+    // add data to the model
 
     @RequestMapping("/processFormVersionTwo")
     public String letsShoutDude(HttpServletRequest request, Model model) {
@@ -40,6 +44,23 @@ public class HelloworldController {
 
         // create the message
         String result = "Yo! " + theName;
+
+        // add message to the model
+        model.addAttribute("message", result);
+
+        return "helloworld";
+    }
+
+    @RequestMapping("/processFormVersionThree")
+    public String processFormVersionThree(
+            @RequestParam("studentName") String theName,
+            Model model) {
+
+        // convert the data to all caps
+        theName = theName.toUpperCase();
+
+        // create the message
+        String result = "Hey My Friend from v3! " + theName;
 
         // add message to the model
         model.addAttribute("message", result);

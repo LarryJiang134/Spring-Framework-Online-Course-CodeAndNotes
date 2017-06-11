@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <form action="processFormVersionTwo" method="get">
+    <form action="processFormVersionTwo" method="GET">
 
         <input type="text" name="studentName"
                placeholder="what's your name?" />
