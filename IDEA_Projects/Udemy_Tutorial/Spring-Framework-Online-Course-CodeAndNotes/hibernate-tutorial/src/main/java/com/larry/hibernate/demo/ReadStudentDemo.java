@@ -45,9 +45,9 @@ public class ReadStudentDemo {
             session.beginTransaction();
 
             // retrieve student based on the id: primary key
-            System.out.println("\n>>Getting student with id: " + tempStudent.getId());
+            System.out.println("\n>> Getting student with id: " + tempStudent.getId());
             Student myStudent = session.get(Student.class, tempStudent.getId());
-            System.out.println(">>Get complete: " + myStudent);
+            System.out.println(">> Get complete: " + myStudent);
 
             // commit the transaction
             session.getTransaction().commit();
