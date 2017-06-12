@@ -1,9 +1,6 @@
 package com.larry.hibernate.demo.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by hangyanjiang on 2017/6/12.
@@ -14,6 +11,7 @@ import javax.persistence.Table;
 public class Student {
 
     @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
 
