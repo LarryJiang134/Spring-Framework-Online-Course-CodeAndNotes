@@ -16,9 +16,10 @@ public class Customer {
     @Size(min=1, message = "is required")
     private String lastName;
 
+    @NotNull(message = "is required")
     @Min(value = 0, message = "must be greater than or equal to 0")
     @Max(value = 10, message = "must be less than or equal to 10")
-    private int freePasses;
+    private Integer freePasses;
 
     @NotNull(message = "is required")
     @Size(min=1, message = "is required")
@@ -46,8 +47,12 @@ public class Customer {
         this.lastName = lastName;
     }
 
-    public int getFreePasses() {
+    public Integer getFreePasses() {
         return freePasses;
+    }
+
+    public void setFreePasses(Integer freePasses) {
+        this.freePasses = freePasses;
     }
 
     public void setFreePasses(int freePasses) {
