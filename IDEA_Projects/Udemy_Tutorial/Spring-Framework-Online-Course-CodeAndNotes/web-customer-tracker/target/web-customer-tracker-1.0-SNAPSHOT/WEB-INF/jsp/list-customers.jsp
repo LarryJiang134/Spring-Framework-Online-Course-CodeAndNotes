@@ -6,6 +6,11 @@
 
 <head>
     <title>List Customers</title>
+
+    <!-- reference our style sheet -->
+    <link type="text/css"
+          rel="stylesheet"
+          href="${pageContext.request.contextPath}/resources/css/style.css" />
 </head>
 
 <body>
@@ -20,6 +25,12 @@
 
         <div id="content">
 
+            <!-- put new button: add customer -->
+            <input type="button" value="Add Customer"
+                   onclick="window.location.href='showFormForAdd'; return false;"
+                   class="add-button"
+            />
+
             <!-- add our html table here -->
             <table>
                 <tr>
@@ -30,7 +41,6 @@
 
                 <!-- loop over and print out customers -->
                 <c:forEach var="tempCustomer" items="${customers}">
-                    1
                     <tr>
                         <td> ${tempCustomer.firstName} </td>
                         <td> ${tempCustomer.lastName} </td>
